@@ -4,6 +4,14 @@ import Stats from "@/components/stats-bar-comp";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 const Home = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/public/assets/Kabir_CV.pdf";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.download = "your-cv.pdf";
+    link.click();
+  };
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -24,6 +32,7 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                onClick={handleDownload}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
