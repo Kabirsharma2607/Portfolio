@@ -1,3 +1,4 @@
+"use client";
 import Photo from "@/components/photo-frame";
 import Socials from "@/components/social-media-bar";
 import Stats from "@/components/stats-bar-comp";
@@ -9,7 +10,7 @@ const Home = () => {
     link.href = "/public/assets/Kabir_CV.pdf";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.download = "your-cv.pdf";
+    link.download = "Kabir_CV.pdf";
     link.click();
   };
   return (
