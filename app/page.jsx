@@ -3,17 +3,10 @@ import Photo from "@/components/photo-frame";
 import Socials from "@/components/social-media-bar";
 import Stats from "@/components/stats-bar-comp";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FiDownload } from "react-icons/fi";
+import { FaGoogleDrive } from "react-icons/fa";
 const Home = () => {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href =
-      "https://github.com/Kabirsharma2607/Portfolio/blob/main/public/assets/Kabir_CV.pdf";
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.download = "Kabir_CV.pdf";
-    link.click();
-  };
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -30,15 +23,21 @@ const Home = () => {
               I love working on innovative and user-friendly solutions.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-                onClick={handleDownload}
+              <Link
+                href="https://drive.google.com/file/d/1QLX6bRqJkyKpXcZaACBQryOzVTH_hfst/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>View CV</span>
+                  <FaGoogleDrive className="text-xl" />
+                </Button>
+              </Link>
+
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
