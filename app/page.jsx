@@ -7,7 +7,8 @@ import { FiDownload } from "react-icons/fi";
 const Home = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/assets/Kabir_CV.pdf";
+    link.href =
+      "https://github.com/Kabirsharma2607/Portfolio/blob/main/public/assets/Kabir_CV.pdf";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.download = "Kabir_CV.pdf";
