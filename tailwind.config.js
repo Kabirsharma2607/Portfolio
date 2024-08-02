@@ -22,11 +22,22 @@ module.exports = {
     fontFamily: {
       primary: "var(--font-jetbrainsMono)",
     },
-    extend: {
+    /**
+     * 
+     * extend: {
       colors: {
         primary: "#1c1c22",
         accent: {
           DEFAULT: "#00ff99",
+          hover: "#00e187",
+        },
+      },
+     */
+    extend: {
+      colors: {
+        primary: "#0d1821",
+        accent: {
+          DEFAULT: "#7371fc",
           hover: "#00e187",
         },
       },
