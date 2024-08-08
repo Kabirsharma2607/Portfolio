@@ -55,9 +55,9 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               action=""
             >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let&aposs work together</h3>
               <p className="text-white/60">
-                I'm always excited to connect with fellow tech enthusiasts,
+                I&aposm always excited to connect with fellow tech enthusiasts,
                 potential collaborators, and anyone interested in my work. Feel
                 free to reach out to me via email at{" "}
                 <a
@@ -74,8 +74,8 @@ const Contact = () => {
                   LinkedIn
                 </a>
                 . Alternatively, you can fill out the form below, and I will get
-                back to you as soon as possible. Let's create something amazing
-                together!
+                back to you as soon as possible. Let&aposs create something
+                amazing together!
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
