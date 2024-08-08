@@ -38,7 +38,7 @@ module.exports = {
         primary: "#0d1821",
         accent: {
           DEFAULT: "#7371fc",
-          hover: "#00e187",
+          hover: "#c8b6ff",
         },
       },
       keyframes: {
