@@ -55,9 +55,9 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               action=""
             >
-              <h3 className="text-4xl text-accent">Let&aposs work together</h3>
+              <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60">
-                I&aposm always excited to connect with fellow tech enthusiasts,
+                I&apos;m always excited to connect with fellow tech enthusiasts,
                 potential collaborators, and anyone interested in my work. Feel
                 free to reach out to me via email at{" "}
                 <a
